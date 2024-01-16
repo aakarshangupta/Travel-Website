@@ -40,9 +40,10 @@
 }
 
 img {
-  width: 100%;
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  object-fit: cover; /* This property ensures that the image retains its aspect ratio */
 }
-
 body {
   font-family: "Roboto", sans-serif;
 }
