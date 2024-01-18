@@ -56,10 +56,10 @@
 <body>
     <div class="registration-container">
         <h2>Registration</h2>
-        <form>
-            <input type="text" placeholder="Username" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
+        <form action="connect.php" method="post">
+            <input type="text" placeholder="Username"  name="username">
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="Password" name="password">
             <button type="submit">Register</button>
         </form>
     </div>
